@@ -864,6 +864,7 @@ public class prac {
 //        1  3  -1  -3  5 [3  2  1]      3
         //1,3,-1,-3,5,3,2,1
 // 维持一个单调栈？ 单调递减栈
+        // test git here
         if(nums.length==1) return new int[]{nums[0]};
         int[] resarr = new int[nums.length-k+1];
         int j = 0;
